@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:buttonTint="#fff"
             android:layout_margin="15dp"
-            android:id="@+id/Siven"
+            android:id="@+id/first"
             android:text="Twoe"
             android:onClick="selectitem"
             android:textColor="#fff"
