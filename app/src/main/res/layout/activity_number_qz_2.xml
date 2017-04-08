@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_number"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#4C0B5F"
+    android:layout_height="match_parent"
+    tools:context="ingenium.simplequizapps.NumberActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_xml"
+        android:padding="30dp"
+        android:text="2"
+        android:background="#424242"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="#4C0B5F"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:buttonTint="#fff"
+            android:layout_margin="15dp"
+            android:id="@+id/first"
+            android:text="Twoe"
+            android:onClick="selectitem"
+            android:textColor="#fff"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:buttonTint="#fff"
+            android:layout_margin="15dp"
+            android:id="@+id/third"
+            android:text="Two"
+            android:onClick="selectitem"
+            android:textColor="#fff"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:buttonTint="#fff"
+            android:layout_margin="15dp"
+            android:id="@+id/second"
+            android:text="Three"
+            android:onClick="selectitem"
+            android:textColor="#fff"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content" />
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:buttonTint="#fff"
+            android:layout_margin="15dp"
+            android:id="@+id/fourth"
+            android:text="Six"
+            android:onClick="selectitem"
+            android:textColor="#fff"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="40dp"
+            android:text="Result"
+            android:id="@+id/result_xml"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#fff"
+            />
+
+    </RadioGroup>
+
+
+</LinearLayout>
